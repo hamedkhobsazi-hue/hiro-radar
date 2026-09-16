@@ -45,7 +45,8 @@
         "OpenAI Plugin/Apps",
         "Claude remote MCP",
         "standard Streamable HTTP MCP clients"
-      ]
+      ],
+      "public_reference_repository": "https://github.com/hamedkhobsazi-hue/hiro-radar"
     }
   }
 }
