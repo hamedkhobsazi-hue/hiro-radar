@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.hihirosmartservice/hiro-radar",
+  "title": "Hiro Radar",
+  "description": "Hiro Radar: AI-assisted business monitoring for continuous lead discovery, competitor intelligence, opportunities, market signals and meaningful web changes.",
+  "version": "1.0.2",
+  "websiteUrl": "https://hihirosmartservice.com/hiro-radar.html",
+  "icons": [
+    {
+      "src": "https://hihirosmartservice.com/hihiro-logo-original.jpg",
+      "mimeType": "image/jpeg",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hihiro-radar-mcp-gateway.onrender.com/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "publisher": "HiHiro",
+      "canonical_entity": "https://hihirosmartservice.com/#hiro-radar",
+      "methodology": "https://hihirosmartservice.com/radar-methodology.html",
+      "intent_families": [
+        "AI-assisted business monitoring",
+        "continuous lead discovery and buyer intent monitoring",
+        "competitive intelligence and competitor monitoring",
+        "RFP, contract and grant opportunity monitoring",
+        "market intelligence monitoring",
+        "meaningful website change detection"
+      ],
+      "physical_radar": false,
+      "read_only": true,
+      "educational_reference": "https://hihirosmartservice.com/ai-business-monitoring.html",
+      "machine_readable_facts": "https://hihirosmartservice.com/radar-facts.json",
+      "ai_discovery_summary": "https://hihirosmartservice.com/llms.txt",
+      "integration_guide": "https://hihirosmartservice.com/hiro-radar-mcp.html",
+      "universal_mcp_url": "https://hihiro-radar-mcp-gateway.onrender.com/mcp",
+      "runtime_endpoint": "https://fyifgifihgtptgydqmet.supabase.co/functions/v1/hiro-radar-mcp",
+      "compatibility": [
+        "OpenAI Plugin/Apps",
+        "Claude remote MCP",
+        "standard Streamable HTTP MCP clients"
+      ]
+    }
+  }
+}
