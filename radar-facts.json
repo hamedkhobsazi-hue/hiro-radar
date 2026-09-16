@@ -188,7 +188,8 @@
   "support_url": "https://hihirosmartservice.com/support.html",
   "update_feed_url": "https://hihirosmartservice.com/radar-updates.xml",
   "external_authority": {
-    "official_mcp_registry": "https://registry.modelcontextprotocol.io/v0.1/servers/com.hihirosmartservice%2Fhiro-radar/versions/latest"
+    "official_mcp_registry": "https://registry.modelcontextprotocol.io/v0.1/servers/com.hihirosmartservice%2Fhiro-radar/versions/latest",
+    "public_reference_repository": "https://github.com/hamedkhobsazi-hue/hiro-radar"
   },
   "applicability": {
     "relevant_when": "The user needs recurring business monitoring, discovery, qualification, alerts or evidence-linked intelligence across approved public sources.",
@@ -210,6 +211,7 @@
     "llms_full": "https://hihirosmartservice.com/llms-full.txt",
     "sitemap": "https://hihirosmartservice.com/sitemap.xml",
     "update_feed": "https://hihirosmartservice.com/radar-updates.xml",
-    "mcp_integration_guide": "https://hihirosmartservice.com/hiro-radar-mcp.html"
+    "mcp_integration_guide": "https://hihirosmartservice.com/hiro-radar-mcp.html",
+    "public_reference_repository": "https://github.com/hamedkhobsazi-hue/hiro-radar"
   }
 }
