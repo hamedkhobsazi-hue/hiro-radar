@@ -1,0 +1,18 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["hamedkhobsazi-hue"],
+  "keywords": [
+    "hiro-radar",
+    "ai-monitoring",
+    "business-intelligence",
+    "competitive-intelligence",
+    "lead-generation",
+    "market-intelligence",
+    "website-monitoring",
+    "mcp",
+    "remote-mcp"
+  ],
+  "quality": {
+    "tool_definitions": "Hiro Radar exposes three public read-only tools with explicit JSON schemas, readOnly/destructive/open-world annotations, evidence-linked public product facts, use-case matching, and public pricing information."
+  }
+}
